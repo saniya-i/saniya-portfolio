@@ -6,18 +6,8 @@
 }
 
 /* Default for all pages */
-body {
-  color: #111827;
-  margin: 0;
-  padding: 0;
-}
-
 .index-page {
-  background-image: url("assets/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(to bottom right, #f5f3ff, #ffffff); /* Lavender mist example */
 }
 
 /* Navbar */
