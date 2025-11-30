@@ -6,16 +6,8 @@
 }
 
 body {
-  background: linear-gradient(to bottom right, #f5f3ff, #ffffff); /* Soft lavender mix */
+  background-color: #ffe4e6 !important;  /* Soft pink test color */
   color: #111827;
-  margin: 0;
-  padding: 0;
-}
-
-/* Navbar */
-header {
-  background: #111827;
-  color: #f9fafb;
 }
 
 
@@ -38,15 +30,6 @@ header {
 .logo {
   font-weight: 700;
   font-size: 1.1rem;
-}
-
-.about-photo img {
-  width: 70px;      /* You can go even smaller if needed */
-  height: 70px;
-  object-fit: cover;
-  border-radius: 50%;      
-  border: 2px solid #2563eb;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .nav-links {
@@ -149,6 +132,7 @@ header {
   color: #1f2937; /* dark gray text */
 }
 
+
 .resume-container {
   background: white !important;
   max-width: 800px;
@@ -181,3 +165,8 @@ header {
   background: #1e40af;
 }
 
+.qr-code:hover {
+  transform: scale(1.08);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
