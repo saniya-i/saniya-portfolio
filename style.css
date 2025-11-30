@@ -64,16 +64,18 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem; /* increased padding so background is visible */
 }
 
 .home-content {
   max-width: 700px;
-  background: #ffffff;
+  margin: 0 auto; /* centers the white box */
+  background: rgba(255, 255, 255, 0.9); /* slightly transparent */
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); /* stronger shadow so it pops */
 }
+
 
 .home-content h1 {
   font-size: 2rem;
