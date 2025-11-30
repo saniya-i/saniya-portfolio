@@ -129,12 +129,22 @@ header {
   margin-top: 0;
   color: #1f2937; /* dark gray text */
 }
+body {
+  background: linear-gradient(to bottom right, #f0f4ff, #f8fafc) !important;
+}
+
 .resume-container {
+  background: white !important;
   max-width: 800px;
   margin: 2rem auto;
-  background: #f8fafc; /* light clean background */
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0px 10px 40px rgba(0,0,0,0.08);
+  box-shadow: 0px 10px 40px rgba(0,0,0,0.12);
   line-height: 1.7;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
