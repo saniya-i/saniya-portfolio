@@ -5,9 +5,11 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Default for all pages */
-.index-page {
-  background: linear-gradient(to bottom right, #f5f3ff, #ffffff); /* Lavender mist example */
+body {
+  background: linear-gradient(to bottom right, #f5f3ff, #ffffff); /* Soft lavender mix */
+  color: #111827;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar */
