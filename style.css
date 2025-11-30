@@ -6,7 +6,9 @@
 }
 
 body {
-  background-color: #ffe4e6 !important;  /* Soft pink test color */
+  background-color: #f5f3ff !important; /* Lavender background */
+  /* OR use gradient */
+  /* background: linear-gradient(to bottom right, #f5f3ff, #ffffff) !important; */
   color: #111827;
 }
 
