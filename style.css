@@ -32,8 +32,8 @@ header {
 }
 
 .about-photo img {
-  width: 100px;      /* You can go even smaller if needed */
-  height: 100px;
+  width: 70px;      /* You can go even smaller if needed */
+  height: 70px;
   object-fit: cover;
   border-radius: 50%;      
   border: 2px solid #2563eb;
@@ -174,3 +174,4 @@ body {
 .download-btn:hover {
   background: #1e40af;
 }
+
