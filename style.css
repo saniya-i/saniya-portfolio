@@ -156,9 +156,6 @@ header {
   margin-top: 0;
   color: #1f2937; /* dark gray text */
 }
-body {
-  background: linear-gradient(to bottom right, #f0f4ff, #f8fafc) !important;
-}
 
 .resume-container {
   background: white !important;
