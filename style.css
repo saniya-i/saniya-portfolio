@@ -8,7 +8,7 @@
 
 /* BACKGROUND FOR EVERY PAGE */
 body {
-  background: linear-gradient(to bottom right, #f5f3ff, #e0f2fe); /* soft purple + blue */
+  background: linear-gradient(to bottom right, #dbeafe, #bfdbfe); /* soft purple + blue */
   color: #111827;
   min-height: 100vh;
 }
