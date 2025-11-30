@@ -87,6 +87,14 @@ header {
   line-height: 1.6;
 }
 
+.home-content,
+.home-content h1,
+.home-content p,
+.home-content h2,
+.home-content h3 {
+  color: #111827 !important;
+}
+
 /* BUTTONS */
 .btn {
   display: inline-block;
@@ -98,14 +106,6 @@ header {
   text-decoration: none;
   font-size: 0.95rem;
   margin-right: 0.5rem;
-}
-
-.home-content,
-.home-content h1,
-.home-content p,
-.home-content h2,
-.home-content h3 {
-  color: #111827 !important;
 }
 
 .btn:hover {
