@@ -199,3 +199,21 @@ header {
   transition: transform 0.3s ease-in-out;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+
+/* 🔹 ABOUT & CONTACT PAGE STYLING */
+.about-container,
+.contact-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure text is readable */
+.about-container *,
+.contact-container * {
+  color: #111827 !important;
+}
+
