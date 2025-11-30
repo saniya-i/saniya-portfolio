@@ -5,22 +5,21 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+/* Default for all pages */
 body {
-  background: linear-gradient(to bottom right, #f0f4ff, #f8fafc);
   color: #111827;
+  margin: 0;
+  padding: 0;
 }
 
+/* Only for index page */
 .index-page {
   background-image: url("assets/background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #111827;
-  margin: 0;
-  padding: 0;
 }
-
 
 /* Navbar */
 header {
