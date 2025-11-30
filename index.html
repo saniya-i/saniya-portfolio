@@ -58,15 +58,18 @@
         alt="QR Code to Portfolio"
         style="width: 200px; border: 2px solid #000; border-radius: 10px; padding: 5px; transition: transform 0.3s ease-in-out;">
     </div>
-    <!-- Chatbot Button -->
-<div style="text-align: center; margin-top: 20px;">
-  <a class="btn" 
-     href="https://bot.dialogflow.com/45df1fff-f9a9-426a-996e-240550552920"
-     target="_blank">
-    💬 Chat With My Virtual Assistant
-  </a>
-</div>
 
   </div>
 </main>
+
+  <!-- Chatbot (Dialogflow Messenger) -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="SaniyaPortfolioChatBot"
+    agent-id="45df1fff-f9a9-426a-996e-240550552920"
+    language-code="en"
+  ></df-messenger>
+</body>
+</html>
 
