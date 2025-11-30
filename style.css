@@ -6,9 +6,10 @@
 }
 
 body {
-  background: #f3f4f6;
+  background: linear-gradient(to bottom right, #f0f4ff, #f8fafc);
   color: #111827;
 }
+
 
 /* Navbar */
 header {
@@ -147,4 +148,20 @@ body {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+.download-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.download-btn:hover {
+  background: #1e40af;
 }
