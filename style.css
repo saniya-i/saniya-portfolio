@@ -1,9 +1,4 @@
 * {
-  background-color: yellow !important;
-}
-
-
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,12 +12,21 @@ body {
   padding: 0;
 }
 
-/* Only for index page */
 .index-page {
-  background-color: red;
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+/* Navbar */
+header {
+  background: #111827;
+  color: #f9fafb;
 }
+
+
 
 /* Navbar */
 header {
