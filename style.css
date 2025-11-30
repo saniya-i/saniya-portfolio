@@ -8,9 +8,8 @@
 
 /* BACKGROUND FOR EVERY PAGE */
 body {
-  background: linear-gradient(to bottom right, #dbeafe, #bfdbfe); /* soft purple + blue */
-  color: #111827;
-  min-height: 100vh;
+  background: linear-gradient(to bottom right, #1e1b4b, #312e81);
+  color: #f9fafb;
 }
 
 /* NAVBAR */
