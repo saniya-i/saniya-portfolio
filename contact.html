@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Saniya Isaac</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .contact-container {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    }
+    .contact-container h1 {
+      margin-bottom: 0.7rem;
+    }
+    .contact-form label {
+      display: block;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .submit-btn {
+      margin-top: 1rem;
+      display: inline-block;
+      padding: 0.7rem 1.4rem;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      background: #1d4ed8;
+    }
+    .contact-info {
+      margin-bottom: 1.5rem;
+    }
+    .contact-info a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Saniya Isaac</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="contact-container">
+  <h1>Contact Me</h1>
+  <div class="contact-info">
+    <p>I’m open to tech roles, internships, collaborations, and professional networking.</p>
+    <p><strong>Availability:</strong> Monday through Friday during regular daytime hours.</p>
+    <p><strong>Response Time:</strong> If you contact me by email, I will get back to you within 24–48 hours.</p>
+    <p><strong>Email:</strong> <a href="mailto:saniyaisaac@gmail.com">saniyaisaac@gmail.com</a></p>
+    <p><strong>Phone:</strong> (240) 893-9533</p>
+    <p><strong>LinkedIn:</strong> 
+  <a href="https://www.linkedin.com/in/saniya-isaac-9981b4291" target="_blank">
+    Connect with me on LinkedIn
+  </a>
+</p>
+
+  </div>
+
+  <form class="contact-form">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</div>
+
+</body>
+</html>
