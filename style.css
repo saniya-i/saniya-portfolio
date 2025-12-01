@@ -158,7 +158,8 @@ header {
 }
 
 .resume-container {
-  background: #e5e7eb; /* change shade here */
+  background: rgba(229, 231, 235, 0.95); /* light gray with transparency */
+  color: #111827 !important; /* make text readable */
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
