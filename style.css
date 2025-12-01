@@ -211,13 +211,12 @@ header {
 
 
 /* Ensure clickable links like LinkedIn are highlighted */
-.contact-container a {
-  color: #2563eb;        /* Blue */
-  text-decoration: underline;
-  font-weight: 500;
+contact-container a {
+  color: #2563eb !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
 }
 
 .contact-container a:hover {
-  color: #1d4ed8;        /* Darker blue on hover */
+  color: #1d4ed8 !important;
 }
-
