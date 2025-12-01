@@ -208,12 +208,16 @@ header {
   color: #111827 !important;
 }
 
-.link-blue {
-  color: #2563eb;         /* Your theme blue */
+
+
+/* Ensure clickable links like LinkedIn are highlighted */
+.contact-container a {
+  color: #2563eb;        /* Blue */
   text-decoration: underline;
   font-weight: 500;
 }
 
-.link-blue:hover {
-  color: #1e40af;         /* Slightly darker blue on hover */
+.contact-container a:hover {
+  color: #1d4ed8;        /* Darker blue on hover */
 }
+
