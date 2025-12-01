@@ -1,4 +1,4 @@
-/* RESET + GLOBAL FONT */
+/* FONT */
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +48,7 @@ header {
   color: #38bdf8;
 }
 
-/* ABOUT PHOTO (if used) */
+/* ABOUT PHOTO  */
 .about-photo img {
   width: 70px;
   height: 70px;
@@ -191,7 +191,7 @@ header {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-/* 🔹 ABOUT & CONTACT PAGE STYLING */
+/* ABOUT & CONTACT PAGE STYLING */
 .about-container,
 .contact-container {
   max-width: 800px;
@@ -202,21 +202,8 @@ header {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* Ensure text is readable */
+/* Make sure the text is readable */
 .about-container *,
 .contact-container * {
   color: #111827 !important;
-}
-
-
-
-/* Ensure clickable links like LinkedIn are highlighted */
-contact-container a {
-  color: #2563eb !important;
-  text-decoration: underline !important;
-  font-weight: 500 !important;
-}
-
-.contact-container a:hover {
-  color: #1d4ed8 !important;
 }
