@@ -158,16 +158,22 @@ header {
 }
 
 .resume-container {
-  background: rgba(229, 231, 235, 0.95); /* light gray with transparency */
-  color: #111827 !important; /* make text readable */
+  background: rgba(229, 231, 235, 0.95) !important; 
+  color: #111827 !important;
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0px 10px 40px rgba(0,0,0,0.12);
-  line-height: 1.7;
-  animation: fadeIn 0.8s ease-in-out;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  position: relative;
+  z-index: 10;
 }
+
+.resume-focus {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
 
 
 /* FADE IN ANIMATION */
