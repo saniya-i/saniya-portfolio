@@ -224,3 +224,12 @@ header {
   color: #111827 !important;
 }
 
+.link-blue {
+  color: #2563eb;         /* Your theme blue */
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.link-blue:hover {
+  color: #1e40af;         /* Slightly darker blue on hover */
+}
